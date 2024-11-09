@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Pro ActiveTab",
+  "author": "thegravity98",
+  "version": "24.11.7",
+  "description": "Automatically creates new tab after all tabs are closed. Specifically made for Microsoft Edge Android",
+  "icons": {
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
+
